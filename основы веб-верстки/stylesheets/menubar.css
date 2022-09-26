@@ -1,0 +1,20 @@
+.menubar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid #bbb;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  /* box-shadow: 18px 43px 60px 0px rgba(0,0,0,0.41); */
+
+}
+
+.menubar img{
+  height: 30px;
+}
+
+.menubar a{
+  color: #777;
+  text-decoration: none;
+}
