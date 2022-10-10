@@ -1,0 +1,48 @@
+nav{
+  display: block;
+  width: 300px;
+  position: fixed;
+  top: 110px;
+  left: 30px;
+  opacity: .2;
+  transition: all .8s ease-out;
+  overflow: hidden;
+  /* cвойство оверфлоу хайден; */
+}
+
+nav:hover{
+  opacity: 1;
+  transition: all .1s ease-out;
+}
+
+nav p{
+  font-weight: bold;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  line-height: 20px;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+nav > ul > li:first-child {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
+  width: 100%;
+}
+
+nav ul > ul > li{
+  margin-left: 10px;
+  color: #777;
+  list-style-type: none;
+}

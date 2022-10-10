@@ -1,0 +1,79 @@
+section div{
+  width: 49.5%;
+  display: inline-block;
+  background: red:
+  overflow: hidden;
+  vertical-align: top;
+}
+
+section h2, p {
+  margin: 0 auto 0 17%;
+  width: 75%;
+}
+
+section div:nth-child(even) h2,
+section div:nth-child(even) p,
+section div:nth-child(even) img
+{
+  margin:: 0 auto 0 17%;
+}
+section:nth-child(odd) h2,
+section:nth-child(odd) p{
+  width: 85%;
+}
+
+section div:nth-child(odd) h2 {
+  margin-top: 135px;
+}
+
+section h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+  line-height: 40px;
+}
+
+section p, .bottom_block {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+section:nth-child(odd){
+  margin: 120px 0 0 80px;
+}
+
+section:nth-child(odd) > div:nth-child(odd) {
+  margin-top: 57px;
+}
+
+section div:nth-child(even) h2,
+section div:nth-child(even) p,
+section div:nth-child(even) img
+{
+  margin-left: 50px;
+}
+
+section img{
+  margin: 60px 0 0 22px;
+}
+
+.bottom_block {
+  padding-top: 40px;
+  text-align: center;
+  width: 880px;
+  margin: 0 auto;
+}
+
+.bottom_block a{
+  text-decoration: none;
+  border: 1px solid #888;
+  font-size: 18px;
+  padding: 16px 38px;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn_black{
+  background: black;
+  color: white;
+}
